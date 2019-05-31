@@ -1,33 +1,31 @@
-.App {
+*{
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal; font-variant: normal;
+}
+body{
+  background-color:transparent;
   text-align: center;
+  margin-top:25%;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-size: 54px;
+  color:white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#clock{
+  width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	background: rgba(33, 2, 2, 0.062);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%;
 }
-
-.App-link {
-  color: #61dafb;
+#hora{
+  text-align: center;
+  font-size:50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fecha{
+  background-color: rgba(0, 0, 0, 0.152);
 }
